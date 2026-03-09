@@ -321,7 +321,7 @@ int main() {
                                             mabel[index].stock = updateStock;
                                             break;
                                         } else {
-                                            cout << "Input tidak valid. Masukkan angka positif: ";
+                                            cout << "\nInput tidak valid. Masukkan angka positif: \n";
                                         }
                                     }
                                 } else if  (updatePilihan == "5") {
@@ -334,7 +334,7 @@ int main() {
                                             mabel[index].harga = updateHarga;
                                             break;
                                         } else {
-                                            cout << "Input tidak valid. Masukkan angka positif: ";
+                                            cout << "\nInput tidak valid. Masukkan angka positif: \n";
                                         }
                                     }
                                 } else if  (updatePilihan == "6") {
@@ -391,7 +391,7 @@ int main() {
                                         mabel[mabelIndex].stock = stockBaru;
                                         break;
                                     } else {
-                                        cout << "Input tidak valid. Masukkan angka positif: ";
+                                        cout << "\nInput tidak valid. Masukkan angka positif: \n";
                                     }
                                 }
                                 int hargaBaru;
@@ -403,7 +403,7 @@ int main() {
                                         mabel[mabelIndex].harga = hargaBaru;
                                         break;
                                     } else {
-                                        cout << "Input tidak valid. Masukkan angka positif: ";
+                                        cout << "\nInput tidak valid. Masukkan angka positif: \n";
                                     }
                                 }
                                 cout << "Masukkan ID Material: ";
@@ -569,7 +569,7 @@ int main() {
                                     if(jumlah > 0) {
                                         break;
                                     } else {
-                                        cout << "Input tidak valid. Masukkan angka positif: " << endl;
+                                        cout << "\nInput tidak valid. Masukkan angka positif: " << endl;
                                     }
                                 }
 
